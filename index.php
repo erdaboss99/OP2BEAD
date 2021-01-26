@@ -5,12 +5,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Hangman</title>
     </head>
-    <style>
-        body {
-            text-align: center;
-            margin: auto;
-        }
-    </style>
     <body>
         <?php
             include 'config.php';
