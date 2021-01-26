@@ -10,6 +10,10 @@
             text-align: center;
             margin: auto;
         }
+        .right {
+            text-align: right;
+            margin: auto;
+        }
     </style>
     <body>
         <?php
@@ -24,7 +28,7 @@
                 $_SESSION['answer'] = $answer;
                 $_SESSION['hidden'] = hideCharacters($answer);
                 echo 'Attempts remaining: '.($MAX_ATTEMPTS - $_SESSION['attempts']).'<br>';
-                echo '<br/> <pre>'.$hang[($MAX_ATTEMPTS - $_SESSION['attempts'])].'</pre> <br/>';
+                echo '<br/> <pre class="right">'.$hang[($MAX_ATTEMPTS - $_SESSION['attempts'])].'</pre> <br/>';
             }else
             {
                 if (isset ($_POST['userInput']))
