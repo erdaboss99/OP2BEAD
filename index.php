@@ -7,8 +7,8 @@
     </head>
     <style>
         body {
-        max-width: 500px;
-        margin: auto;
+            text-align: center;
+            margin: auto;
         }
     </style>
     <body>
