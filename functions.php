@@ -81,6 +81,7 @@
                     echo "Game Over. The correct word was ";
                     foreach ($answer as $letter) echo $letter;
                     echo '<br><form action = "" method = "post"><input type = "submit" name = "newWord" value = "Try another Word"/></form><br>';
+                    echo '<hr> <center>Copyright &copy; 2021 Roland Erdélyi - QY0801</center>'
                     die();
                 }
                 if ($hidden == $answer)
@@ -88,6 +89,7 @@
                     echo "Game Over. The correct word is indeed ";
                     foreach ($answer as $letter) echo $letter;
                     echo '<br><form action = "" method = "post"><input type = "submit" name = "newWord" value = "Try another Word"/></form><br>';
+                    echo '<hr> <center>Copyright &copy; 2021 Roland Erdélyi - QY0801</center>'
                     die();
                 }
         }
