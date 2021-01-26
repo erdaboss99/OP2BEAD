@@ -65,15 +65,15 @@
         function checkGameOver($MAX_ATTEMPTS,$userAttempts, $answer, $hidden)
         {
             $gover =
-' -------
- |/    | 
- |     o
- |   --|--
- |     |
- |    / \
- | 
-/|\
--------------';
+'            -------
+            |/    | 
+            |     o
+            |   --|--
+            |     |
+            |    / \
+            | 
+           /|\
+ -----------------------';
 
             if ($userAttempts >= $MAX_ATTEMPTS)
                 {
