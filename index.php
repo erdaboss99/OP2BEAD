@@ -55,5 +55,8 @@
             <input type = "submit"  value = "Check" onclick="return validateInput()"/>
             <input type = "submit" name = "newWord" value = "Try another Word"/>
         </form>
+        <hr>
+
+        <center>Copyright &copy; 2020 Roland Erdélyi - QY0801</center>
     </body>
 </html>
