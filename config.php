@@ -1,4 +1,4 @@
 <?php
-        $MAX_ATTEMPTS = 7;
+        $MAX_ATTEMPTS = 6;
         $WORDLISTFILE = 'wordlist.txt';
 ?>
